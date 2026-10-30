@@ -85,18 +85,19 @@ export const userData = {
   
   experience: [
     { 
-      company: "Tech Giant Corp",   // Company Name
-      role: "Senior Analytics Manager", // Your Job Title
-      period: "2023 - Present",     // Dates (e.g., "Jan 2023 - Present" or "2020 - 2022")
-      current: true,                // Set to true if you still work here (adds a glowing dot)
+      company: "PLN UP3 Surabaya Selatan",   // Company Name
+      role: "Data Analyst Intern", // Your Job Title
+      period: "Feb 2026 - Jun 2026",     // Dates (e.g., "Jan 2023 - Present" or "2020 - 2022")
+      current: false,                // Set to true if you still work here (adds a glowing dot)
       color: "#f59e0b",             // Hex code for the bar color (Amber: #f59e0b, Blue: #3b82f6, Pink: #ec4899)
-      location: "Bangalore, India", // City/Location
+      location: "Surabaya, Indonesia", // City/Location
       
       // Detailed bullet points for this job
-      achievements: [
-        "Architected centralized inventory data aggregate → 60% reduction in compute costs.",
-        "Designed centralized selection framework replacing ad-hoc processes.",
-        "Built automated insights dashboards for leadership team."
+      achievements: [  
+        "Mengolah dan memvalidasi data transaksi energi skala besar untuk mendukung akurasi pelaporan dan analisis operasional.",
+        "Mengembangkan dashboard peramalan untuk memproyeksikan tren susut energi listrik (kWh) sebagai sistem pemantauan dan peringatan dini.",
+        "Membangun data pipeline dan logika deteksi anomali pada dashboard untuk mengidentifikasi pola konsumsi listrik pelanggan yang tidak normal.",
+        "Mengembangkan aplikasi web internal dengan tiga level pengguna untuk mengotomatisasi pencatatan dan pengelolaan inventaris divisi."
       ]
     },
     { 

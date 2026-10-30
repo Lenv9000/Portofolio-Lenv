@@ -20,7 +20,7 @@ export const userData = {
   // PROFILE PICTURE SETTINGS
   // Option A: Put a file named 'profile.png' in the 'public' folder and leave this line as is.
   // Option B: If you don't have a photo, delete the text inside the quotes ("") to show your Initials instead.
-  profileUrl: "/profile.jpg",       
+  profileUrl: "/profile.png",       
   
   summary: "Transforming raw data into strategic decisions. Specializing in e-commerce analytics, revenue optimization, and business intelligence.", // A 2-3 sentence professional bio
 

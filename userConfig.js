@@ -176,7 +176,7 @@ export const userData = {
   
   education: [
     {
-      degree: "B.Tech - Computer Science Eng.",
+      degree: "S.Tr.Stat. - Statistika Bisnis.",
       school: "Institut Teknologi Sepuluh Nopember",
       location: "Surabaya, Indonesia",
       year: "2026",

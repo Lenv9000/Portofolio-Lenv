@@ -29,7 +29,7 @@ export const userData = {
   // These links will open in a new tab when clicked.
   // ===============================================================================================
   
-  github: "https://github.com/Lenv9000",     // Link to your GitHub profile
+  github: "",     // Link to your GitHub profile
   linkedin: "https://www.linkedin.com/in/valentama-at", // Link to your LinkedIn profile
   email: "valentamacareer@gmail.com",               // Your contact email address
   
@@ -176,18 +176,11 @@ export const userData = {
   
   education: [
     {
-      degree: "M.Tech - Computer Science Eng.",   // Degree Name
-      school: "Indian Institute of Technology ", // University / School
-      location: "Chenni, India",            // Location
-      year: "2015",                           // Year of Graduation
-      grade: "7.29 CGPA"                      // Grade / GPA / Score (Optional)
-    },
-    {
       degree: "B.Tech - Computer Science Eng.",
-      school: "Indian Institute of Technology",
-      location: "Chennai, India",
-      year: "2015",
-      grade: "7.23 CGPA"
+      school: "Institut Teknologi Sepuluh Nopember",
+      location: "Surabaya, Indonesia",
+      year: "2026",
+      grade: "3.38 / 4.00"
     }
   ],
 
@@ -208,7 +201,7 @@ export const userData = {
   // ===============================================================================================
   
   contact: {
-    phone: "+91 xxxxx xxxxx", // Your phone number. If you prefer email only, leave this empty "".
+    phone: "", // Your phone number. If you prefer email only, leave this empty "".
     statusMessage: "Actively exploring Lead Business Analyst & Analytics Manager level analytics roles.", // Availability text
     
     // Tags for the "I can help with" section

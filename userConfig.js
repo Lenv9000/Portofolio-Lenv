@@ -124,15 +124,21 @@ export const userData = {
   
   projects: [
     {
-      title: "E-Commerce Sales Dashboard",              // Project Title
-      description: "Analyzed $5M in sales data using Python and PowerBI.", // Short description
-      tech: ["Python", "SQL", "PowerBI"],               // Tech stack tags
+      title: "WebApp Internal Inventory",              // Project Title
+      description: "otomatisasi pencatatan dan pengelolaan inventaris divisi.", // Short description
+      tech: ["Spreadsheet", "AppScript", "Java Script", "HTML", "CSS"],               // Tech stack tags
       link: "https://github.com/..."                    // Link to project
     },
     {
-      title: "Customer Churn Prediction",
-      description: "Built a logistic regression model to predict churn with 85% accuracy.",
-      tech: ["Scikit-Learn", "Tableau"],
+      title: "Dashboard Deteksi Anomali",
+      description: "Identifikasi pola konsumsi listrik pelanggan yang tidak normal",
+      tech: ["Microsoft Access", "Python", "Power BI", "Analisis Statistik", "Data Pipeline"],
+      link: "https://github.com/..."
+    },
+    {
+      title: "Dashboard Forecasting Susut kWh",
+      description: "Sistem pemantauan dan peringatan dini.",
+      tech: ["R", "R Shiny", "Python", "Analisis Statistik", "Forecasting"],
       link: "https://github.com/..."
     }
   ], 

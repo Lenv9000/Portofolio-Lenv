@@ -13,8 +13,8 @@ export const userData = {
   // ===============================================================================================
   
   name: "Ahmad Valentama Taruna",           // Your full name as it should appear on the site
-  role: "Data Analyst & Dashboard Expert", // Your professional headline or job title
-  location: "Bangalore, India",     // Your city and country
+  role: "Data Analyst & Dashboard", // Your professional headline or job title
+  location: "Surabaya, Indonesia",     // Your city and country
   tagline: "I turn messy data into actionable insights.", // A catchy one-liner displayed on the dashboard
   
   // PROFILE PICTURE SETTINGS
@@ -29,9 +29,9 @@ export const userData = {
   // These links will open in a new tab when clicked.
   // ===============================================================================================
   
-  github: "https://github.com/yourusername",     // Link to your GitHub profile
-  linkedin: "https://linkedin.com/in/yourusername", // Link to your LinkedIn profile
-  email: "your.email@example.com",               // Your contact email address
+  github: "https://github.com/Lenv9000",     // Link to your GitHub profile
+  linkedin: "https://www.linkedin.com/in/valentama-at", // Link to your LinkedIn profile
+  email: "valentamacareer@gmail.com",               // Your contact email address
   
   // RESUME SETTINGS
   // Put your PDF file in the 'public' folder and name it 'resume.pdf'.

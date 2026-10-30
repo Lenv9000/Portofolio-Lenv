@@ -100,31 +100,7 @@ export const userData = {
         "Mengembangkan aplikasi web internal dengan tiga level pengguna untuk mengotomatisasi pencatatan dan pengelolaan inventaris divisi."
       ]
     },
-    { 
-      company: "Fast Growth Startup", 
-      role: "Lead Business Analyst", 
-      period: "2021 - 2023", 
-      current: false, 
-      color: "#ec4899", 
-      location: "Remote",
-      achievements: [
-        "Led a team of 4 analysts to optimize marketing spend.",
-        "Improved conversion rate by 15% through A/B testing frameworks.",
-        "Automated daily reporting using Python and Airflow."
-      ]
-    },
-    { 
-      company: "Consulting Firm", 
-      role: "Business Analyst", 
-      period: "2018 - 2021", 
-      current: false, 
-      color: "#3b82f6", 
-      location: "Gurugram, India",
-      achievements: [
-        "Analyzed large datasets to identify revenue leakage.",
-        "Created Tableau dashboards for healthcare clients."
-      ]
-    },
+  
   ],
 
   // ===============================================================================================

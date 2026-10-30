@@ -12,7 +12,7 @@ export const userData = {
   // Information displayed in the sidebar (left panel) and the top of the dashboard.
   // ===============================================================================================
   
-  name: "Your Name Here",           // Your full name as it should appear on the site
+  name: "Ahmad Valentama Taruna",           // Your full name as it should appear on the site
   role: "Data Analyst & Dashboard Expert", // Your professional headline or job title
   location: "Bangalore, India",     // Your city and country
   tagline: "I turn messy data into actionable insights.", // A catchy one-liner displayed on the dashboard

@@ -216,7 +216,7 @@ export const userData = {
   // ===============================================================================================
   
   contact: {
-    phone: "", // Your phone number. If you prefer email only, leave this empty "".
+    phone: "+6281904599000", // Your phone number. If you prefer email only, leave this empty "".
     statusMessage: "Actively exploring Lead Business Analyst & Analytics Manager level analytics roles.", // Availability text
     
     // Tags for the "I can help with" section

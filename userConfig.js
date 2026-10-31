@@ -93,11 +93,11 @@ export const userData = {
       location: "Surabaya, Indonesia", // City/Location
       
       // Detailed bullet points for this job
-      achievements: [  
-        "Mengolah dan memvalidasi data transaksi energi skala besar untuk mendukung akurasi pelaporan dan analisis operasional.",
-        "Mengembangkan dashboard peramalan untuk memproyeksikan tren susut energi listrik (kWh) sebagai sistem pemantauan dan peringatan dini.",
-        "Membangun data pipeline dan logika deteksi anomali pada dashboard untuk mengidentifikasi pola konsumsi listrik pelanggan yang tidak normal.",
-        "Mengembangkan aplikasi web internal dengan tiga level pengguna untuk mengotomatisasi pencatatan dan pengelolaan inventaris divisi."
+      achievements: [
+        "Processed, consolidated, and validated large-scale energy transaction data to ensure accuracy and reliability for operational reporting and analysis.",
+        "Collaborated with a team to develop an interactive R Shiny forecasting dashboard to project electricity energy loss (kWh) trends and support early warning monitoring.",
+        "Developed the data pipeline and anomaly detection logic for a Power BI-based dashboard to identify abnormal electricity consumption patterns among customers.",
+        "Developed an internal web-based inventory management application with three user roles to streamline data entry and support structured inventory management within the division."
       ]
     },
   

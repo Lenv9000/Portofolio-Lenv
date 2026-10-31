@@ -110,10 +110,10 @@ export const userData = {
   // ===============================================================================================
   
   domains: [
-    { name: "E-commerce", level: 90 },         // Level is a percentage (0 to 100)
-    { name: "Marketing Analytics", level: 85 },
-    { name: "SQL & Python", level: 95 },
-    { name: "Tableau/PowerBI", level: 80 },
+    { name: "Data Processing & Analysis", level: 90 },         // Level is a percentage (0 to 100)
+    { name: "Data Visualization", level: 80 },
+    { name: "Statistical Analysis & Modeling", level: 75 },
+    { name: "Forecasting & Predictive Analytics", level: 75 },
   ],
 
   // ===============================================================================================

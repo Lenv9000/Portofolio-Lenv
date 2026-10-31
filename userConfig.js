@@ -52,7 +52,7 @@ export const userData = {
       trendValue: "Intern"
     },
     { 
-      label: "Project Portfolio",
+      label: "Project",
       value: "99",
       prefix: "",
       suffix: "+",
@@ -139,21 +139,21 @@ export const userData = {
   
   projects: [
     {
-      title: "WebApp Internal Inventory",              // Project Title
-      description: "otomatisasi pencatatan dan pengelolaan inventaris divisi.", // Short description
-      tech: ["Spreadsheet", "AppScript", "Java Script", "HTML", "CSS"],               // Tech stack tags
+      title: "Internal Inventory Management System",              // Project Title
+      description: "Developed a web-based application to streamline internal inventory data entry, asset tracking, and inventory management through a structured multi-role system.", // Short description
+      tech: ["Google Apps Script", "Google Sheets", "JavaScript", "HTML", "CSS"],               // Tech stack tags
       link: "https://github.com/..."                    // Link to project
     },
     {
-      title: "Dashboard Deteksi Anomali",
-      description: "Identifikasi pola konsumsi listrik pelanggan yang tidak normal",
-      tech: ["Microsoft Access", "Python", "Power BI", "Analisis Statistik", "Data Pipeline"],
+      title: "Electricity Consumption Anomaly Detection",
+      description: "Developed a data processing pipeline and anomaly detection logic to identify unusual customer electricity consumption patterns and support operational monitoring through Power BI.",
+      tech: ["Python", "Microsoft Access", "Power BI", "Statistical Analysis", "Data Pipeline" ,"Anomaly Detection"],
       link: "https://github.com/..."
     },
     {
-      title: "Dashboard Forecasting Susut kWh",
-      description: "Sistem pemantauan dan peringatan dini.",
-      tech: ["R", "R Shiny", "Python", "Analisis Statistik", "Forecasting"],
+      title: "Energy Loss Forecasting Dashboard",
+      description: "Develop an interactive R Shiny dashboard for forecasting energy loss trends (kWh) and supporting early warning monitoring.",
+      tech: ["R", "R Shiny", "Time Series Analysis", "ARIMA", "Forecasting"],
       link: "https://github.com/..."
     }
   ], 

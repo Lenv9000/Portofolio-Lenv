@@ -100,6 +100,21 @@ export const userData = {
         "Developed an internal web-based inventory management application with three user roles to streamline data entry and support structured inventory management within the division."
       ]
     },
+    { 
+      company: "Forestry Service",   // Company Name
+      role: "Data Analyst Intern", // Your Job Title
+      period: "Jan 2025",     // Dates (e.g., "Jan 2023 - Present" or "2020 - 2022")
+      current: false,                // Set to true if you still work here (adds a glowing dot)
+      color: "#f59e0b",             // Hex code for the bar color (Amber: #f59e0b, Blue: #3b82f6, Pink: #ec4899)
+      location: "Sidoarjo, Indonesia", // City/Location
+      
+      // Detailed bullet points for this job
+      achievements: [
+        "Processed, cleaned, and analyzed raw timber and non-timber forest production data to support forestry sector performance monitoring and data-driven evaluation.",
+        "Collaborated with a team to design and develop a Streamlit-based web application for data input and collection."
+      ]
+    },
+    
   
   ],
 

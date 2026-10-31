@@ -5,17 +5,17 @@ import {
   TrendingUp, 
   TrendingDown, 
   Minus, 
-  DollarSign, 
-  Users, 
-  Activity, 
-  BarChart3 
+  BriefcaseBusiness, 
+  FolderKanban, 
+  BarChart3, 
+  CodeXml 
 } from 'lucide-react'
 // IMPORT CONFIG
 import { userData } from '@/userConfig'
 
 export default function DashboardStats() {
   // Map icons to the 4 stats based on index
-  const icons = [BriefcaseBusiness, FolderKanban, ChartNoAxesCombined, CodeXml]
+  const icons = [BriefcaseBusiness, FolderKanban, BarChart3, CodeXml]
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">

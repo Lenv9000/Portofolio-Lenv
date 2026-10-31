@@ -191,7 +191,7 @@ export const userData = {
   
   education: [
     {
-      degree: "S.Tr.Stat. - Statistika Bisnis.",
+      degree: "S.Tr.Stat. - Business Statistics.",
       school: "Institut Teknologi Sepuluh Nopember",
       location: "Surabaya, Indonesia",
       year: "2026",

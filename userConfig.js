@@ -56,7 +56,7 @@ export const userData = {
       value: "99",
       prefix: "",
       suffix: "+",
-      trend: "neutral",                // "down" is good for costs (shows green arrow)
+      trend: "up",                // "down" is good for costs (shows green arrow)
       trendValue: "Featured"
     },
     { 

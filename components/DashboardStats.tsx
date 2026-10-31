@@ -15,7 +15,7 @@ import { userData } from '@/userConfig'
 
 export default function DashboardStats() {
   // Map icons to the 4 stats based on index
-  const icons = [DollarSign, Activity, Users, BarChart3]
+  const icons = [BriefcaseBusiness, FolderKanban, ChartNoAxesCombined, CodeXml]
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">

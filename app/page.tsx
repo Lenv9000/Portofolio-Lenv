@@ -168,9 +168,9 @@ function DashboardView() {
              <Briefcase size={20} className="text-amber-400" />
            </div>
            <div>
-             <h3 className="font-heading font-semibold text-white mb-0.5">Ready to Hire?</h3>
+             <h3 className="font-heading font-semibold text-white mb-0.5">Ready for New Opportunities!</h3>
              <p className="text-sm text-neutral-400">
-               Check out my skills or contact me directly to discuss opportunities.
+               I'm currently open to opportunities in Data Analytics and Data Visualization. Let's connect and explore how I can contribute to your team.
              </p>
            </div>
         </div>

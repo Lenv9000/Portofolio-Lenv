@@ -13,9 +13,9 @@ export const userData = {
   // ===============================================================================================
   
   name: "Ahmad Valentama Taruna",           // Your full name as it should appear on the site
-  role: "Data Analyst & Dashboard", // Your professional headline or job title
+  role: "Data Analyst & Data Visualization", // Your professional headline or job title
   location: "Surabaya, Indonesia",     // Your city and country
-  tagline: "I turn messy data into actionable insights.", // A catchy one-liner displayed on the dashboard
+  tagline: "From raw data to meaningful insights and impactful visualizations.", // A catchy one-liner displayed on the dashboard
   
   // PROFILE PICTURE SETTINGS
   // Option A: Put a file named 'profile.png' in the 'public' folder and leave this line as is.
@@ -44,36 +44,36 @@ export const userData = {
   
   stats: [
     { 
-      label: "Revenue Impact",      // Title of the card
-      value: "10",                  // The big number
-      prefix: "$",                  // Symbol before the number (e.g., $)
-      suffix: "M+",                 // Symbol after the number (e.g., M+, %, +)
-      trend: "up",                  // Options: "up", "down", or "neutral" (controls the arrow)
-      trendValue: "High Impact"     // The small text next to the arrow (e.g., "Optimized", "Saved")
+      label: "Professional Experience",      // Title of the card
+      value: "2",
+      prefix: "",
+      suffix: "",
+      trend: "neutral",
+      trendValue: "Intern"
     },
     { 
-      label: "Cost Reduction",
-      value: "30",
+      label: "Project Portfolio",
+      value: "99",
       prefix: "",
-      suffix: "%",
-      trend: "down",                // "down" is good for costs (shows green arrow)
-      trendValue: "Optimized"
-    },
-    { 
-      label: "Experience",
-      value: "4",
-      prefix: "",
-      suffix: "+ Years",
-      trend: "neutral",             // "neutral" shows a flat line/dot
-      trendValue: "Senior Level"
+      suffix: "+",
+      trend: "neutral",                // "down" is good for costs (shows green arrow)
+      trendValue: "Featured"
     },
     { 
       label: "Dashboards",
-      value: "50",
+      value: "4",              // The big number
+      prefix: "",              // Symbol before the number (e.g., $)
+      suffix: "+",             // Symbol after the number (e.g., M+, %, +)
+      trend: "up",             // Options: "up", "down", or "neutral" (controls the arrow)
+      trendValue: "Build"      // The small text next to the arrow (e.g., "Optimized", "Saved")
+    },
+    { 
+      label: "Technical Skills",
+      value: "99",
       prefix: "",
       suffix: "+",
-      trend: "up",
-      trendValue: "Built"
+      trend: "neutral",
+      trendValue: "Tools"
     },
   ],
 

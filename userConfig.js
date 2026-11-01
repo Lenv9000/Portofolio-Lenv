@@ -53,17 +53,17 @@ export const userData = {
     },
     { 
       label: "Project",
-      value: "99",
+      value: "4",
       prefix: "",
-      suffix: "+",
+      suffix: "",
       trend: "up",                // "down" is good for costs (shows green arrow)
       trendValue: "Featured"
     },
     { 
       label: "Dashboards",
-      value: "4",              // The big number
+      value: "3",              // The big number
       prefix: "",              // Symbol before the number (e.g., $)
-      suffix: "+",             // Symbol after the number (e.g., M+, %, +)
+      suffix: "",             // Symbol after the number (e.g., M+, %, +)
       trend: "up",             // Options: "up", "down", or "neutral" (controls the arrow)
       trendValue: "Build"      // The small text next to the arrow (e.g., "Optimized", "Saved")
     },

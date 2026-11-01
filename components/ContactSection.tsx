@@ -30,7 +30,7 @@ export default function ContactSection() {
       <div>
         <h2 className="heading text-xl text-white mb-1">Let&apos;s Connect</h2>
         <p className="text-sm text-neutral-500">
-          Open to discussing analytics leadership roles, consulting opportunities, or interesting projects
+          I'm excited to explore new opportunities and apply my analytical skills to real-world business and operational challenges.
         </p>
       </div>
 

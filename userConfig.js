@@ -223,7 +223,7 @@ export const userData = {
   
   contact: {
     phone: "+6281904599000", // Your phone number. If you prefer email only, leave this empty "".
-    statusMessage: "Interested in Data Analytics, Production Planning & Quality Control roles.", // Availability text
+    statusMessage: "Actively exploring Lead Business Analyst & Analytics Manager level analytics roles.", // Availability text
     
     // Tags for the "I can help with" section
     // 💡 TIP: Add as many service tags as you like.

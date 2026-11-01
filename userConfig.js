@@ -211,7 +211,7 @@ export const userData = {
   // ===============================================================================================
   
   skillBalance: [
-    { label: "Technical", value: 85 },  // Percentage (0-100)
+    { label: "Technical", value: 80 },  // Percentage (0-100)
     { label: "Strategic", value: 90 },
     { label: "Leadership", value: 80 }
   ],

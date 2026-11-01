@@ -68,8 +68,8 @@ export const userData = {
       trendValue: "Build"      // The small text next to the arrow (e.g., "Optimized", "Saved")
     },
     { 
-      label: "Technical Skills",
-      value: "99",
+      label: "Technical",
+      value: "10+",
       prefix: "",
       suffix: "+",
       trend: "neutral",
@@ -184,7 +184,7 @@ export const userData = {
       items: ["Statistical Analysis", "Forecasting", "Time Series Analysis", "ARIMA", "Machine Learning", "Statistical Process Control", "Multivariate Analysis"] 
     },
     { 
-      category: "Technical Tools", 
+      category: "Technical", 
       items: ["R", "Python", "SQL", "Google Apps Script", "JavaScript", "Microsoft Excel", "Microsoft Access", "Minitab", "SPSS"] 
     }
   ],

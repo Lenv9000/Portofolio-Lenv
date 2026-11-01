@@ -69,7 +69,7 @@ export const userData = {
     },
     { 
       label: "Technical",
-      value: "10+",
+      value: "10",
       prefix: "",
       suffix: "+",
       trend: "neutral",

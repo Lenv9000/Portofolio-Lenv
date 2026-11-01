@@ -1,7 +1,6 @@
 'use client'
 
 import { useState } from 'react'
-import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { 
   Mail, 
@@ -140,34 +139,25 @@ export default function ContactSection() {
 
       {/* Availability Status */}
 <motion.div
-  initial={{ opacity: 0, y: 20 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ delay: 0.5 }}
-  className="bg-gradient-to-r from-amber-500/10 to-orange-500/10 rounded-2xl p-6 border border-amber-500/20"
->
-  <div className="flex items-center gap-4 flex-wrap">
-    <div className="flex items-center gap-2 flex-shrink-0">
-      <span className="relative flex h-3 w-3">
-        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-        <span className="relative inline-flex rounded-full h-3 w-3 bg-emerald-500"></span>
-      </span>
-
-      <span className="text-emerald-400 font-medium text-sm">
-        Open to Opportunities
-      </span>
-    </div>
-
-    {/* Divider */}
-    <div className="h-4 w-px bg-surface-500 hidden sm:block" />
-
-    {/* Typewriting Text */}
-    <p className="text-sm text-neutral-400 min-h-[20px]">
-      {displayText}
-      <span className="inline-block w-[2px] h-4 bg-amber-400 ml-1 animate-pulse align-middle" />
-    </p>
-
-  </div>
-</motion.div>
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.5 }}
+        className="bg-gradient-to-r from-amber-500/10 to-orange-500/10 rounded-2xl p-6 border border-amber-500/20"
+      >
+        <div className="flex items-center gap-4">
+          <div className="flex items-center gap-2 flex-shrink-0">
+            <span className="relative flex h-3 w-3">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-3 w-3 bg-emerald-500"></span>
+            </span>
+            <span className="text-emerald-400 font-medium text-sm hidden sm:inline">Open to Opportunities</span>
+          </div>
+          <div className="h-4 w-px bg-surface-500 hidden sm:block" />
+          <p className="text-sm text-neutral-400">
+            {userData.contact.statusMessage}
+          </p>
+        </div>
+      </motion.div>
 
       {/* Services Tags (Dynamic) */}
       <motion.div

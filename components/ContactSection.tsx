@@ -167,7 +167,7 @@ export default function ContactSection() {
         className="bg-surface-700/50 rounded-2xl p-6 border border-surface-600"
       >
         <h3 className="text-xs uppercase tracking-wider text-neutral-500 mb-4 font-medium">
-          I can help with
+          Areas of interest
         </h3>
         <div className="flex flex-wrap gap-2">
           {userData.contact.services.map((item, index) => (

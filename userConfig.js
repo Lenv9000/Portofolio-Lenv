@@ -184,7 +184,7 @@ export const userData = {
       items: ["Statistical Analysis", "Forecasting", "Time Series Analysis", "ARIMA", "Machine Learning", "Statistical Process Control", "Multivariate Analysis"] 
     },
     { 
-      category: "Technical", 
+      category: "Tools", 
       items: ["R", "Python", "SQL", "Google Apps Script", "JavaScript", "Microsoft Excel", "Microsoft Access", "Minitab", "SPSS"] 
     }
   ],

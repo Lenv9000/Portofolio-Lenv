@@ -172,20 +172,20 @@ export const userData = {
   
   skills: [
     { 
-      category: "Data & Querying",                  // Category Title
-      items: ["SQL", "Python", "Hive", "Impala", "Excel"] // List of skills in this category
+      category: "Data Analysis & Processing",                  // Category Title
+      items: ["Data Analysis", "Data Cleaning & Processing", "Data Validation", "Data Pipeline Development", "Anomaly Detection"] // List of skills in this category
     },
     { 
-      category: "Visualization", 
-      items: ["Power BI", "Tableau", "Excel Charts", "Dashboard Design"] 
+      category: "Data Visualization & Dashboard", 
+      items: ["Data Visualization", "Dashboard Development", "Power BI", "R Shiny"] 
     },
     { 
-      category: "AI & Emerging Tech", 
-      items: ["Generative AI", "LLM Concepts", "Prompt Engineering", "AI Product Building"] 
+      category: "Statistical Analysis & Modeling", 
+      items: ["Statistical Analysis", "Forecasting", "Time Series Analysis", "ARIMA", "Machine Learning", "Statistical Process Control", "Multivariate Analysis"] 
     },
     { 
-      category: "Business & Strategy", 
-      items: ["Revenue Assurance", "P&L Management", "Inventory Optimization", "Marketing Mix Modeling"] 
+      category: "Technical Tools", 
+      items: ["R", "Python", "SQL", "Google Apps Script", "JavaScript", "Microsoft Excel", "Microsoft Access", "Minitab", "SPSS"] 
     }
   ],
 

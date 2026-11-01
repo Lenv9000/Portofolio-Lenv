@@ -223,48 +223,8 @@ export const userData = {
   
   contact: {
     phone: "+6281904599000", // Your phone number. If you prefer email only, leave this empty "".
-// Typewriting Effect
-const typingTexts = [
-  "Exploring Data Analyst opportunities",
-  "Interested in Business Intelligence roles",
-  "Open to PPIC & Production Planning roles",
-  "Exploring Inventory Control opportunities",
-  "Interested in Quality Control & Statistical Quality roles"
-]
-
-const [textIndex, setTextIndex] = useState(0)
-const [displayText, setDisplayText] = useState("")
-const [isDeleting, setIsDeleting] = useState(false)
-
-useEffect(() => {
-  const currentText = typingTexts[textIndex]
-
-  const typingSpeed = isDeleting ? 30 : 65
-  const pauseTime = 1800
-
-  const timeout = setTimeout(() => {
-    if (!isDeleting) {
-      if (displayText.length < currentText.length) {
-        setDisplayText(
-          currentText.substring(0, displayText.length + 1)
-        )
-      } else {
-        setTimeout(() => setIsDeleting(true), pauseTime)
-      }
-    } else {
-      if (displayText.length > 0) {
-        setDisplayText(
-          currentText.substring(0, displayText.length - 1)
-        )
-      } else {
-        setIsDeleting(false)
-        setTextIndex((prev) => (prev + 1) % typingTexts.length)
-      }
-    }
-  }, typingSpeed)
-
-  return () => clearTimeout(timeout)
-}, [displayText, isDeleting, textIndex])    
+    statusMessage: "Interested in Data Analytics, Production Planning & Quality Control roles.", // Availability text
+    
     // Tags for the "I can help with" section
     // 💡 TIP: Add as many service tags as you like.
     services: [

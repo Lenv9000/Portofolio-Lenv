@@ -155,6 +155,12 @@ export const userData = {
       description: "Develop an interactive R Shiny dashboard for forecasting energy loss trends (kWh) and supporting early warning monitoring.",
       tech: ["R", "R Shiny", "Time Series Analysis", "ARIMA", "Forecasting"],
       link: "https://github.com/..."
+    },
+    {
+      title: "Project Time Capability Analysis",
+      description: "Analyzed project schedule performance and time capability across public elementary school infrastructure projects using Critical Path Method (CPM), multivariate statistical process control, and multivariate process capability analysis.",
+      tech: ["R", "Statistical Analysis", "Critical Path Method (CPM)", "Indivdual Hotelling's T²", "M Chart"],
+      link: "https://github.com/..."
     }
   ], 
 

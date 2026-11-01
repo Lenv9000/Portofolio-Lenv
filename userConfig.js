@@ -228,13 +228,14 @@ export const userData = {
     // Tags for the "I can help with" section
     // 💡 TIP: Add as many service tags as you like.
     services: [
-      "Revenue Assurance", 
-      "Analytics Strategy", 
-      "P&L Optimization", 
-      "Data Team Building", 
-      "Inventory Analytics", 
-      "AI/GenAI Projects", 
-      "Consulting"
+      "Data Analyst", 
+      "Business Analyst", 
+      "Data Visualization", 
+      "PPIC", 
+      "Production Planner", 
+      "Inventory Control Analyst", 
+      "Quality Control Analyst",
+      "Statistical Quality Control"
     ]
   }
 };
